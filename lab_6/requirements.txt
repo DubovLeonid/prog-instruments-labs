@@ -1,7 +1,6 @@
 cryptography
 pytest
 pycparser
-os
 asymmetric
 cryptosystem
 symmetric
