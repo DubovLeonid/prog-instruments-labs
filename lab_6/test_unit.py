@@ -1,7 +1,7 @@
 import pytest
 
 from asymmetric import Asymmetric
-from cryptosistem import CryptoSistem
+from cryptosystem import CryptoSistem
 from symmetric import Symmetric
 
 
@@ -148,5 +148,6 @@ def test_generate_hybrid_keys(monkeypatch):
 
     crypto = CryptoSistem(KEY_LEN)
     result = crypto.generate_hybrid_keys()
+
 
     assert result == (b'mock_encrypted_key', 'mock_public', 'mock_private')
