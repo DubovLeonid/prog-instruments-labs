@@ -1,5 +1,4 @@
 cryptography
 pytest
-pycparser
 cryptosystem
 
